@@ -8,6 +8,10 @@
     box-sizing: border-box;
   }
   
+  body{
+    width: 1440px;
+  }
+
 /* First Section */
 .div1{
    background: #00BF69;
@@ -88,12 +92,13 @@ max-height: 60px;
     gap: 26px;
 }
 
- .hello:nth-of-type(1){
+ .hello{
     height: 538px;
-  
     background: url(./images/blackPhone.png);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
+    position: relative;
+    right:11%;
 } 
 
 /* section 2 */
@@ -535,6 +540,8 @@ margin-bottom: 44.37px;
     display: flex;
     align-items: center;
     margin-bottom: 31.26px;
+    margin-top: 203px;
+    gap: 9px;
 }
 .green-logo{ 
 width: 50px;
@@ -544,25 +551,30 @@ background-color: #007640;
 }
 
 .left-query{
-    padding-left: 122px;
+    /* padding-left: 122px; */
+    width: 1012px;
 }
 
 .links{
-    width: 1210px;
-  
+    width: 1012px;
 }
 .bold{
     font-weight: bold;
 }
+
+table{
+    width: 1012px;
+}
+
 td{
     cursor: pointer;
     width: 239px;
     padding-bottom: 32px;
 }
 
+
 .media{
-  
-    width: 428px;
+    /* width: 428px; */
 }
 .media svg{
     cursor: pointer;
@@ -579,11 +591,14 @@ button{
  *   ! Media Queries 
 **/
 
-@media (max-width: 1200px) { 
+        @media (max-width: 1200px) { 
+        
 
-    .banner-notes{
-        border: 1px solid red;
-        /* display: block; */
+
+        .banner-notes{
+        margin: 5% auto;
         width: 100%;
-    }
-}
+        }
+
+
+        }
