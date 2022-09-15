@@ -208,7 +208,6 @@ max-height: 60px;
     color: #ffff;
     width: 720px;
     height: 662px;
-    border: 1px solid blue;
 }
 
 .chat{
@@ -448,7 +447,6 @@ margin-bottom: 163px;
 .round{
     width: 26.5px;
     height: 26.5px;
-    /* background-color: tomato; */
     border: 2px solid #000000;
     padding: 5px;
     border-radius: 50%;
@@ -614,9 +612,6 @@ button{
 
         @media (max-width: 1399px) { 
         
-        *{
-            border: 1px solid red;
-        }
         body{
             width: 100%;
         }
@@ -701,13 +696,48 @@ button{
 
         /* Div 9 max-width 1399px*/
         .div9{
-            width: auto;
+            /* width: 100%; */
             left: 0px;
         }
 
         .hand{
-            margin-left: auto;
-            border: 1px solid yellow;
+            margin: auto;
+        }
+
+        .sec-get-ahead{
+            margin: auto;
+        }
+
+        /* Div 10 max-width 1399p */
+
+        .div-logos{
+            padding-left: 5%;
+
+        }
+
+        .left-query{
+            padding-left: 10%;
+        }
+
+        .form input{
+            width: 70%;
+        }
+
+        table{
+            width: auto;
+        }
+
+        td{
+            width: 210px;
+        }
+
+        .links{
+            width: auto;
+        }
+
+        .media svg {
+            display: block;
+            margin: 10px;
         }
 
         }
